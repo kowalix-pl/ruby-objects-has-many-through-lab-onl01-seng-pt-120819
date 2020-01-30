@@ -16,8 +16,8 @@ class Doctor
  end 
 
  def appointments
-   meals.map do |meal|
-   meal.waiter
+   appointment.map do |appointment|
+   appointment.doctor
  end
 end
 
