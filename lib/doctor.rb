@@ -12,7 +12,7 @@ class Doctor
  end 
  
   def appointments
-   appointment.all.select do |appointment|
+   appointment.all.collect do |appointment|
    appointment.doctor == self 
  end
 end
