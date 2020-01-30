@@ -21,8 +21,4 @@ class Doctor
  end
 end
 
-    appointment.all.select do |appointment|
-    appointment.doctor == self
-  end
-  end 
 end 
