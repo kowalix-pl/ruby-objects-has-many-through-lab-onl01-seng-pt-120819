@@ -11,7 +11,7 @@ class Doctor
    @@all
  end 
  
-  def appointments
+  def appointments(appointment)
    appointment.all.collect do |appointment|
    appointment.doctor == self 
  end
