@@ -16,6 +16,11 @@ class Doctor
  end 
 
  def appointments
+   meals.map do |meal|
+   meal.waiter
+ end
+end
+
     appointment.all.select do |appointment|
     appointment.doctor == self
   end
